@@ -580,6 +580,7 @@ declare namespace __MaterialUI {
         // <EnhancedButton/> is the element that get the 'other' properties
         backgroundColor?: string;
         disabled?: boolean;
+        containerElement?: React.ReactNode | string;
         hoverColor?: string;
         href?: string;
         icon?: React.ReactNode;
@@ -603,6 +604,7 @@ declare namespace __MaterialUI {
         // <EnhancedButton/> is the element that get the 'other' properties
         backgroundColor?: string;
         className?: string;
+        containerElement?: React.ReactNode | string;
         disabled?: boolean;
         disabledBackgroundColor?: string;
         disabledLabelColor?: string;
@@ -655,6 +657,7 @@ declare namespace __MaterialUI {
     interface IconButtonProps extends React.HTMLAttributes, SharedEnhancedButtonProps<IconButton> {
         // <EnhancedButton/> is the element that get the 'other' properties
         className?: string;
+        containerElement?: React.ReactNode | string;
         disabled?: boolean;
         iconClassName?: string;
         iconStyle?: React.CSSProperties;
